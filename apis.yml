@@ -1,0 +1,7 @@
+aid: abercrombie-and-fitch
+url: https://raw.githubusercontent.com/api-evangelist/abercrombie-and-fitch/refs/heads/main/apis.yml
+modified: '2026-03-23'
+apis: []
+common:
+  - type: Website
+    url: https://www.abercrombie-and-fitch.com
