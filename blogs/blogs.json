@@ -1,0 +1,13 @@
+{
+  "repo": "abercrombie-and-fitch",
+  "feeds": [
+    {
+      "source": "https://corporate.abercrombie.com/news/the-journal/",
+      "feed_url": "https://corporate.abercrombie.com/news/the-journal/feed/",
+      "title": "Comments on: The A&F Co. Journal",
+      "saved": 0
+    }
+  ],
+  "fetched": "2026-05-09T20:17:51Z",
+  "post_count": 0
+}
