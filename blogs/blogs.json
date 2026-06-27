@@ -3,12 +3,19 @@
   "feeds": [
     {
       "source": "https://corporate.abercrombie.com/news/the-journal/",
-      "feed_url": "https://corporate.abercrombie.com/news/the-journal/",
-      "title": "The A&F Co. Journal",
-      "saved": 1,
-      "method": "html-scrape"
+      "feed_url": "https://corporate.abercrombie.com/news/the-journal/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    },
+    {
+      "source": "https://corporate.abercrombie.com/privacy-notice/",
+      "feed_url": "https://corporate.abercrombie.com/privacy-notice/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
     }
   ],
   "post_count": 6,
-  "fetched": "2026-06-21T17:00:00Z"
+  "fetched": "2026-06-27T12:03:07Z"
 }
