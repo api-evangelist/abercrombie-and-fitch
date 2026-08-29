@@ -56,6 +56,17 @@ common:
     url: https://corporate.abercrombie.com/news/press-releases/
   - type: Contact
     url: https://corporate.abercrombie.com/contact-us/
+  - type: TermsOfService
+    url: >-
+      https://www.abercrombie.com/shop/CustomerService?pageName=site-use&textKey=LEGAL_SITE_USE&storeId=10051&catalogId=10901&langId=-1
+  - type: Security
+    url: security/abercrombie-and-fitch-vulnerability-disclosure.yml
+  - type: VulnerabilityDisclosure
+    url: security/abercrombie-and-fitch-vulnerability-disclosure.yml
+  - type: WellKnownProbe
+    url: well-known/abercrombie-and-fitch-well-known.yml
+  - type: LLMsTxt
+    url: llms/abercrombie-and-fitch-llms.txt
   - type: Features
     data:
       - name: Multi-Brand Retail
@@ -94,10 +105,31 @@ description: >-
   Hollister, and Gilly Hicks. The company operates through a direct-to-consumer model
   with both e-commerce and physical retail stores across global markets.
 created: '2024-01-15'
-modified: '2026-04-19'
+modified: '2026-08-29'
 position: Consuming
 specificationVersion: '0.23'
 apis: []
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-08-29'
+  status: minimal
+  artifacts_added: 3
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: >-
+    Abercrombie & Fitch runs a real corporate API gateway at api.anfcorp.com, but it answers
+    a JSON 404 envelope on every anonymous path and the company publishes no developer portal,
+    reference, spec or SDK anywhere — B2B integration is EDI trading-partner onboarding and
+    affiliate networks, not a developer program.
+  evidence:
+    - url: https://api.anfcorp.com/openapi.json
+      status: 404
+    - url: https://corporate.abercrombie.com/llms.txt
+      status: 404
+    - url: https://api.github.com/orgs/AbercrombieAndFitch/repos
+      status: 200
+  checked: '2026-08-29'

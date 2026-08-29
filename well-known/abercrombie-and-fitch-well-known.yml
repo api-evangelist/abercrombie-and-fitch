@@ -1,0 +1,98 @@
+generated: '2026-08-29'
+method: probed
+source: live HTTP probes of every Abercrombie & Fitch host reachable from apis.yml
+note: >-
+  No /.well-known/ document was served by any Abercrombie & Fitch host. The consumer
+  storefront (www.abercrombie.com) answers 403 to every path including its own homepage
+  and a nonsense control path, so it is an edge bot challenge rather than evidence about
+  the .well-known surface. The corporate site (corporate.abercrombie.com, WordPress)
+  answers 404 with a ~103KB HTML "Page not found" body on every path including the control.
+  api.anfcorp.com is a real API gateway — it answers a JSON envelope
+  {"statusCode":404,"message":"Resource not found"} rather than HTML — but it publishes
+  nothing at any discovery path. No WellKnown or SecurityTxt pointer is emitted: nothing
+  was fetched and saved.
+hit_count: 0
+hosts:
+  - host: https://www.abercrombie.com
+    note: >-
+      Akamai-class edge answers 403 with a 149-byte "Bad Request" page for every path,
+      including https://www.abercrombie.com/ itself; treated as a bot challenge, not as
+      an absence claim about this host.
+    documents:
+      - path: /.well-known/security.txt
+        status: 403
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 403
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 403
+        file: null
+      - path: /.well-known/api-catalog
+        status: 403
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 403
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 403
+        file: null
+      - path: /.well-known/agent.json
+        status: 403
+        file: null
+      - path: /.well-known/zzz-nonexistent-control
+        status: 403
+        file: null
+        soft_404_control: true
+        bytes: 149
+  - host: https://corporate.abercrombie.com
+    note: >-
+      WordPress corporate site; every path returns the themed 404 page (~103KB), control
+      path included.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+      - path: /.well-known/zzz-nonexistent-control
+        status: 404
+        file: null
+        soft_404_control: true
+        bytes: 103709
+  - host: https://api.anfcorp.com
+    note: >-
+      Live API gateway (Azure Application Gateway / Traffic Manager) that returns a JSON
+      404 envelope on every path. Nothing is published anonymously; no reference, spec or
+      discovery document is served.
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+      - path: /.well-known/zzz-control
+        status: 404
+        file: null
+        soft_404_control: true
+        bytes: 54
