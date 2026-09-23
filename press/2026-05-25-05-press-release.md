@@ -1,7 +1,9 @@
 ---
 title: Press Release
 url: https://www.sec.gov/Archives/edgar/data/1018840/000101884026000006/q42025pressrelease.htm
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Abercrombie & Fitch" press release artificial intelligence'
 position: 5
 source: serpapi-google

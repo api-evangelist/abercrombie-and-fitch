@@ -1,7 +1,9 @@
 ---
 title: How Abercrombie & Fitch Co. Optimizes Planning with AI
 url: https://wwd.com/sourcing-journal/industry-news/webinar-how-abercrombie-fitch-co-optimizes-planning-with-ai-syrup-tech-1238832967/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Abercrombie & Fitch" press release artificial intelligence'
 position: 4
 source: serpapi-google

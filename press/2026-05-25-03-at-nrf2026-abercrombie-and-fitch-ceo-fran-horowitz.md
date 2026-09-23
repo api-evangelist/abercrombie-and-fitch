@@ -1,7 +1,9 @@
 ---
 title: 'At #NRF2026, Abercrombie & Fitch CEO Fran Horowitz— ...'
 url: https://www.facebook.com/NationalRetailFederation/posts/at-nrf2026-abercrombie-fitch-ceo-fran-horowitzrecipient-of-nrfs-visionary-awards/1434482775385254/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Abercrombie & Fitch" press release artificial intelligence'
 position: 3
 source: serpapi-google
