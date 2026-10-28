@@ -1,4 +1,4 @@
-# Abercrombie and Fitch (abercrombie-and-fitch)
+# Abercrombie and Fitch
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,62 +66,82 @@
 
 Abercrombie & Fitch is a global specialty retailer of casual apparel, accessories, and personal care products operating multiple lifestyle brands including Abercrombie, Hollister, and Gilly Hicks. The company operates through a direct-to-consumer model with both e-commerce and physical retail stores across global markets.
 
-**URL:** [https://www.abercrombie.com/](https://www.abercrombie.com/)
+**Areas:** Retail · Fashion · E-Commerce · Apparel · Lifestyle
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=abercrombie-and-fitch-api-evangelist&utm_content=repo)
+## Abercrombie and Fitch on APIs.io
 
-## Tags:
+Everything profiled for Abercrombie and Fitch is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/abercrombie-and-fitch/](https://apis.io/providers/abercrombie-and-fitch/)** — or go straight to one of the APIs or properties below.
 
- - Retail, Fashion, E-commerce, Apparel, Lifestyle
+### Published properties
 
-## Timestamps
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-- **Created:** 2024-01-15
-- **Modified:** 2026-04-19
+#### Security (2)
 
-## APIs
+Authentication, trust centre, and vulnerability disclosure.
 
-No public APIs have been documented yet. Abercrombie & Fitch is a retail company without a public developer API program. Affiliate and partner integrations are available through established affiliate networks.
+- [Abercrombie And Fitch Domain Security](https://apis.io/security/abercrombie-and-fitch/abercrombie-and-fitch-domain-security/)
+- [Abercrombie And Fitch Vulnerability Disclosure](https://apis.io/security/abercrombie-and-fitch/abercrombie-and-fitch-vulnerability-disclosure/)
 
-## Common Properties
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.abercrombie.com/)
-- [Portal](https://corporate.abercrombie.com/)
-- [PrivacyPolicy](https://corporate.abercrombie.com/privacy-notice/)
 - [Blog](https://corporate.abercrombie.com/news/the-journal/)
-- [ReleaseNotes](https://corporate.abercrombie.com/news/press-releases/)
-- [Contact](https://corporate.abercrombie.com/contact-us/)
+- [Terms of service](https://www.abercrombie.com/shop/CustomerService?pageName=site-use&textKey=LEGAL_SITE_USE&storeId=10051&catalogId=10901&langId=-1)
+- [Privacy policy](https://corporate.abercrombie.com/privacy-notice/)
+- [GitHub](https://github.com/AbercrombieAndFitch)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Multi-Brand Retail | Operates Abercrombie, Hollister, Gilly Hicks, and abercrombie kids brands across global markets |
-| Digital Commerce | E-commerce platform with personalized shopping experiences across web and mobile apps |
-| Omnichannel Experience | Integrated online and in-store shopping with buy online pickup in store and ship from store capabilities |
-| Loyalty Program | Abercrombie & Fitch rewards program for repeat customers with exclusive benefits |
-| Global Operations | International retail presence across North America, Europe, and Asia Pacific markets |
+**Kin Score 16.6** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 28.9 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 21.1 |
 
-| Name | Description |
-|------|-------------|
-| Affiliate Marketing | Partner with Abercrombie & Fitch through affiliate networks to earn commissions on referral sales |
-| Price Comparison | Aggregate product pricing and availability data for comparison shopping platforms |
-| Brand Monitoring | Track brand mentions, product launches, and promotional campaigns across channels |
-| Supply Chain Integration | Partner integrations for supply chain, logistics, and inventory management |
+**Agent readiness 0.0** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| PayPal Braintree | Payment processing integration with Braintree PayPal for secure transactions |
-| Adobe Analytics | Website analytics and customer behavior tracking via Adobe Analytics integration |
-| OneTrust | Privacy and consent management integration via OneTrust platform |
-| Affiliate Networks | Affiliate marketing program integrations through major affiliate networks |
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/abercrombie-and-fitch/](https://apis.io/providers/abercrombie-and-fitch/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Abercrombie and Fitch: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/abercrombie-and-fitch/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
